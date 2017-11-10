@@ -1,4 +1,4 @@
-#redux-saga源码解读
+# redux-saga源码解读
 
 ### 简述
 redux-saga是用于维护redux异步操作的状态的一个中间件实现，其中reducer负责处理state更新，sagas负责协调异步操作。它提供了一系列的side-effects方法，可以让用户很优雅的实现一些异步功能。 本文从源码出发，结合一个简单实现，探索工具的实现原理。
